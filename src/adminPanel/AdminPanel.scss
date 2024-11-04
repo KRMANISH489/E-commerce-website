@@ -1,0 +1,71 @@
+.admin-panel {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.admin-panel input {
+    display: block;
+    width: calc(100% - 20px);
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.admin-panel button {
+    margin: 10px 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+
+    &:hover {
+        background-color: #0056b3;
+    }
+}
+
+.admin-panel table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel th, .admin-panel td {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.admin-panel th {
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.admin-panel tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.admin-panel tr:hover {
+    background-color: #f1f1f1;
+}
+
+.admin-panel img {
+    border-radius: 5px;
+    object-fit: cover;
+}

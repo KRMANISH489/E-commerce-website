@@ -1,0 +1,67 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "userName": "admin",
+      "password": "Admin@123"
+    }
+  ],
+  "adminPanel": [
+    {
+      "id": "71a1",
+      "name": "Formal Shirt",
+      "price": "3059",
+      "description": "Men Regular Fit Solid Formal Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/w/g/c/-original-imah4qhh5hythkjc.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "50ba",
+      "name": "Casual Shirt",
+      "price": "8499",
+      "description": "Men Regular Fit Striped Casual Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/t/r/a/m-a036670ncaq-9xx-diesel-original-imah3abybgyazayz.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "e2f5",
+      "name": "Casual Shirt",
+      "price": "239",
+      "description": "Men Regular Fit Printed Spread Collar Casual Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/j/z/c/s-st10-vebnor-original-imah5hdumfrdhwht.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "ee43",
+      "name": "Formal Shirt",
+      "price": "409",
+      "description": "Men Regular Fit Solid Formal Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/1/s/b/s-full-sleeve-shinning-shirts-for-men-solstice-original-imahfg6x5jd2gkzx.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "29bb",
+      "name": "Casual Shirt",
+      "price": "226",
+      "description": "Men Regular Fit Checkered Casual Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/g/j/t/s-mens-staylist-chex-strecheble-shirt-dbex-original-imah3hj4wrbnaujh.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "b60e",
+      "name": "Casual Shirt",
+      "price": "8745",
+      "description": "Men Relaxed Fit Fit Floral Print Casual Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/r/p/n/m-a036870efah9xx-diesel-original-imah3vp8awxyu7z8.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "a517",
+      "name": "Casual Shirt",
+      "price": "299",
+      "description": "Men Slim Fit Solid Spread Collar Casual Shirt",
+      "image": "https://rukminim2.flixcart.com/image/416/416/xif0q/shirt/k/i/z/l-191-combraided-original-imagxjn8rxuvhgur.jpeg?q=70&crop=false"
+    },
+    {
+      "id": "2343",
+      "name": "Collar Casual Shirt",
+      "price": "299",
+      "description": "Men Regular Fit Solid Mandarin Collar Casual Shirt",
+      "image": "https://rukminim2.flixcart.com/image/832/832/xif0q/shirt/p/l/0/xxl-st1-vebnor-original-imah4ttw9gnqefgd.jpeg?q=70&crop=false"
+    }
+  ]
+}

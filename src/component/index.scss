@@ -1,0 +1,147 @@
+$brand-clr: #000;
+
+.logo img {
+    width: 100px;
+}
+
+.conten_set {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 60%;
+}
+
+.search-container {
+    flex: 1;
+    display: flex;
+    justify-content: center; 
+}
+
+.main_class {
+    position: fixed;
+    top: 0;
+    background: #f5a24c;
+    width: 100%; 
+}
+
+.conten_set a {
+    position: relative;
+    color: $brand-clr;
+    font-size: 15px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-decoration: none;
+    transition: color 0.3s ease; 
+}
+
+.conten_set a::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #1a0683;
+    transition: width 0.3s ease;
+}
+
+.conten_set a:hover {
+    color: #1a0683; 
+}
+
+.conten_set a:hover::before {
+    width: 100%; 
+}
+
+.icon-section {
+    display: flex; 
+    gap: 20px; 
+    align-items: center; 
+}
+
+.FontAwesome_Icon {
+    text-align: center;
+}
+.banner {
+    width: 100%;
+    height: 580px;
+    object-fit: fill;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+
+.product-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    margin-bottom: 20px;
+    height: 440px;
+}
+
+
+.product-card:hover {
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-image {
+    width: 100%; 
+    height: 200px; 
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.FontAwesome_Icon {
+    color: #000;
+    text-decoration: none;
+}
+
+
+@media (max-width: 576px) {
+    .col-xs-3 {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media (min-width: 576px) and (max-width: 768px) {
+    .col-sm-3 {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+}
+@media (min-width: 768px) {
+    .col-md-3 {
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+

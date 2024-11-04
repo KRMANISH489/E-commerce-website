@@ -1,0 +1,59 @@
+.adminDashbord_sec {
+    background-image: url(../image/banner/admin_dashbord.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.adminDashbord_col {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.adminDashbord_card {
+    background-color: #ff7c43;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.adminDashbord_card h2 {
+    color: #f1e89c;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.adminDashbord {
+    border: 1px solid #c3ccd5; 
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+    background-color: #d4b491 !important;
+    color: #fff !important;
+}
+
+.login-btn {
+    background-color: #dcbe9e !important; 
+    color: #fff;
+    border: none !important;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px !important; 
+    font-weight: 600 !important;
+    width: 62%;
+    transition: background-color 0.3s;
+}
+
+.login-btn:hover {
+    background-color: #ff7c43 !important; 
+}
